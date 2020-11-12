@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+        <title>Pizza Palace</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+
+        <script src="pizza.js"></script>
+        <link href="pizza.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+            <div class="container">
+                    <div>
+                        <a class="logo" href="#"><img src="pp.png" alt="Logo"></a>
+                        <div class="right-area">
+                        
+                            <h6><a class="plr-20 color-white btn-fill-primary" id = "order" href="#">ORDER: +34 685 778 8892</a></h6>
+                        </div>  
+                    </div>
+                <!-- right-area -->
+                    <a class="menu-nav-icon" data-menu="#main-menu" href="#"><i class="ion-navicon"></i></a>
+                    <div class="topnav">
+                        <a href="main.html">Home<br>ホーム</a>
+                        <a href="order.html">Order<br>お待ち帰り予約</a>
+                        <a href="about.html">About<br>情報</a>
+                    </div>
+                    
+            </div><!-- container -->
+    </header>
+
+    <div>
+        <h1 id="menu"><span>Our Menu<br>メニュー</span></h1>
+    </div>
+    <div class="tab">
+        <button class="tablinks" id="defaultOpen" onclick="openFood(event, 'Pizzas')">Pizzas<br>ピザ</button>
+        <button class="tablinks" onclick="openFood(event, 'Drinks')">Drinks<br>飲み物</button>
+        <button class="tablinks" onclick="openFood(event, 'Sides')">Sides<br>サイド</button>
+    </div>
+    
+    <div id="Pizzas" class="tabcontent">
+        <h3>Pizzas</h3>
+        <div id="c1">
+            <p id="lefty">
+                <img src="menu-3-120x120.jpg">
+                <h5><b>Margherita Pizza</b></h5> 
+                Fresh tomatoes & basil on a garlic/olive oil base, a true classic (substitute tomato sauce no charge)Fresh tomatoes & basil on a garlic/olive oil base, a true classic 
+            </p>
+            <p>
+                <img src="menu-1-120x120.jpg">
+                <h5><b>Pepperoni Supreme</b></h5>pepperoni, smoked mozzarella, mushrooms, tomatoes & pepperoncini. Italian sausage, kale & Mama Lil's Peppers on a garlic base, topped w/red pepper coulis   
+            </p>
+            <p>
+                <img src="menu-5-120x120.jpg">
+                <h5><b>Pesto</b></h5>fresh spinach, roasted garlic & peppers, sun-dried tomatoes & feta on pesto base. resh tomatoes, artichoke hearts, kalamata olives and feta on garlic/olive oil base
+            </p>
+        </div>
+        <div id="c2">
+            <p id="righty">
+                <img src="menu-5-120x120.jpg">
+                <h5><b>Quatro Formaggio</b></h5> Fresh tomatoes & basil on a garlic/olive oil base, <br>a true classic (substitute tomato sauce no charge)<br>Fresh tomatoes & basil on a garlic/olive oil base, a true classic   
+            </p> 
+            <p>
+                <img src="menu-1-120x120.jpg">
+                <h5><b>Geneveve</b></h5>pepperoni, smoked mozzarella, mushrooms, tomatoes & pepperoncini. Italian sausage, kale & Mama Lil's Peppers on a garlic base, topped w/red pepper coulis   
+            </p>
+            <p id="lefty">
+                <img src="menu-3-120x120.jpg">
+                <h5><b>Margherita Pizza</b></h5> 
+                Fresh tomatoes & basil on a garlic/olive oil base, a true classic (substitute tomato sauce no charge)Fresh tomatoes & basil on a garlic/olive oil base, a true classic 
+            </p>
+        </div>
+    </div>
+
+    <div id="Drinks" class="tabcontent">
+        <h3>Drinks</h3>
+        <div id="c1">
+            <p id="lefty">
+                <img src="pepsi.jpg">
+                <h5><b>Pepsi</b></h5>  <br><br><br><br>
+            </p>
+            <p>
+                <img src="sprite.jpg">
+                <h5><b>Sprite</b></h5><br><br><br><br>
+            </p>
+            <p>
+                <img src="cdry.jpg">
+                <h5><b>Canada Dry</b></h5><br><br><br><br>
+            </p>
+        </div> 
+    </div>
+
+    <div id="Sides" class="tabcontent">
+        <h3>Sides</h3>
+        <div id="c1">
+            <p id="lefty">
+                <img src="cheez.jpg">
+                <h5><b>Cheesey Bread</b></h5>  <br><br><br><br>
+            </p>
+            <p>
+                <img src="sticks.jpg">
+                <h5><b>Breadsticks</b></h5><br><br><br><br>
+            </p>
+            <p>
+                <img src="calzone.jpg">
+                <h5><b>Calzone</b></h5><br><br><br><br>
+            </p>
+        </div> 
+    </div>
+</div>
+
+</body>
+</html>
